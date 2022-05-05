@@ -1,0 +1,82 @@
+.body{
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1.5px;
+}
+.navbar{
+    padding:0 4%;
+    display: flex;
+    align-content: space-between;
+}
+.logout:hover{
+    cursor: pointer;
+    color: #4c3ccc;
+}
+.head{
+    display: flex;
+    border:1px solid black;
+}
+.items{
+    padding-left: 2%;
+    width:60vw;
+    border-right:1px solid black ;
+}
+.create-edit{
+    padding-left: 2%;
+}
+.align{
+    display: flex;
+}
+.search-bar{
+    width:200px;
+    border: none;
+}
+.search-bar:focus{
+    outline: none;
+}
+.icon{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0.5% 1%;
+    margin-left: 2%;
+    margin-top: 2%;
+    width:230px;
+}
+.table{
+    margin-left: 2%;
+    border: 1px solid black;
+    /* border-radius: 5px; */
+    width:60vw;
+}
+.th{
+    background-color: #f7f7f7;
+    padding: 1% 2%;
+    /* font-family:"Raleway, sans-serif"; */
+    font-weight: 300;
+    color: #787A91;
+}
+.radio{
+    width:20px;
+}
+input{
+    width:200px;
+    padding: 4% 8%;
+}
+select{
+    border-radius: 5px;
+    width:248px;
+    padding: 4% 8%;
+}
+.create-form{
+    margin-left: 2%;
+    text-align: left;
+}
+.submit-form{
+    color:#fff;
+    background-color: #4c3ccc;
+}
+.submit-form:hover{
+    cursor: pointer;
+    color: #4c3ccc;
+    border:2px solid #4c3ccc;
+    background-color: white;
+}
